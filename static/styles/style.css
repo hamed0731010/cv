@@ -1,0 +1,67 @@
+*{
+
+    background-color: rgb(110, 109, 107);
+}
+
+.profile {
+margin-top: 50px;
+margin-left: 30px;
+border-radius: 50%;
+width: 110px;
+height: 110px;
+
+}
+.profile.contact{
+
+width: 25px;
+height: 25px;
+
+
+}
+.left{
+    
+    height: 100%;
+    width: 350px;
+    position: fixed;
+     z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(90, 84, 84);
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+hr{
+
+    width: 80%;
+    
+}
+.ha{
+    margin-left: 20px;
+}
+.hrpr{
+    width: 100%;
+}
+.contact{
+color: black;
+
+}
+.vl {
+    border-left: 6px solid green;
+    height: 500px;
+    flex: 5%;
+  }
+.right{
+    margin-left: 380px; 
+    font-size: 28px;
+    padding: 0px 10px;
+
+  
+  
+}
+
+.logo{
+
+    width: 70px;
+    height: 70px;
+}
