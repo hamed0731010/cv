@@ -61,20 +61,6 @@ def signup_post():
         json.dump(li, json_file, 
                         indent=4,  
                         separators=(',',': '))
-    # json_object=json.dumps(user_dict)
-    # li.append(user_dict)
-    # with open('db.json','w') as file:
-    #         file.write(json_object) 
-    # with open('db.json') as file:
-    #     listobj=json.load(file)
-    # with open('db.json','w') as file:
-    #     json.dump(li,file,indent=4,separators=(',',': '))   
-    # 
-    # with open('db.json' ) as file:
-    #         dictobj=json.load(file)
-    # dictobj.append(json_object)     
-    # with open('db.json', 'w') as json_file:
-    #      json.dump(li, json_file, 
-    #                     )   
+ 
     return redirect('/login')
 app.run()
